@@ -17,7 +17,7 @@
 .topNavLinks{
   width: 50%;
   justify-content: center;
-  display:flex;
+  display:flex;  
 }
 
 .topNavUser{
@@ -27,22 +27,19 @@
 }
 
 
-
-.topNavLang{
-  justify-content: flex-end;
+.topFlagLang{  
+  font-size:10px;
+  margin-right:10px;
   display:flex;
 }
 
 
-
-
-
-
-
-.topFlagLang{  
-  font-size:10px;
-  margin-right:5px;
+.topNavLogin{
+  font-size:15px;
+  padding-top: 5px;  
 }
+
+
 
 p{  
   color: white;
