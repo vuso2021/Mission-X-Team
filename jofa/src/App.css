@@ -43,9 +43,36 @@
   margin:0px;  
 }
 
-.baloonk{
+
+.sec1{
+  background-image:url("img/baloonkid.jpg");
+  background-size:100%;
   width:100%;
 }
+
+.sec11{
+  width:35%;
+  padding-left:200px;
+
+}
+
+
+.psec1{
+  font-size:15px;
+  color:#282c34;
+}
+
+.psec11{
+  font-size:10px;
+  color:#282c34;
+}
+
+
+.sec12{
+  width:65%;
+
+}
+
 
 
 
@@ -55,6 +82,11 @@ p{
   margin-left:10px;
 }
 
+h1{
+  color:#282c34;
+  font-size:50px;
+  margin:0px;
+}
 
 
 .App-logo {
