@@ -6,22 +6,25 @@
 .topNav{
   background:rgb(0, 177, 251);
   display:flex;
+  justify-content:center;
+  width:100%;
+
 }
 
 .topLogo{
-  width: 20%;
-  justify-content: flex-start;
+  width: 30%;
+  justify-content: center;
   display:flex;
 }
 
 .topNavLinks{
-  width: 60%;
+  width: 40%;
   justify-content: center;
   display:flex;  
 }
 
 .topNavUser{
-  width: 20%;
+  width: 30%;
   align-content: flex-end;
   display:flex;
 }
@@ -39,15 +42,18 @@
 .topNavLogin{
   font-size:15px;
   padding-top: 5px;
-  padding:0px;
-  margin:0px;  
 }
 
-
+.table1{
+margin:0px;
+padding:0px;
+}
 .sec1{
   background-image:url("img/baloonkid.jpg");
   background-size:100%;
   width:100%;
+  padding-bottom:10px;
+  padding-top:20px;
 }
 
 .sec11{
@@ -73,6 +79,30 @@
 
 }
 
+.sec21{
+  width:35%;
+  padding-left:200px;
+}
+
+.sec22{
+  width:65%;
+  
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+
+  
+}
+
+
+
+.a1{
+  text-decoration:none;
+  margin:10px;
+  color:white;
+}
 
 
 
