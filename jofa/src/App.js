@@ -37,6 +37,15 @@ function TopHeader() {
 
       <div className="topNavUser">
         
+      <div >
+                <div className="topNavLogin">
+                <p>
+                  <a href="#" className="a1"><i class="fa fa-user-circle" aria-hidden="true"></i>
+               REGISTER | LOGIN </a>
+                </p>
+                </div>
+              </div>
+              
               <div>
                 <div className="topFlagLang">
                   <p>LANG: <img src={flagnz} alt="NZ Flag" /> <img src={flagmaori} alt="Maori Flag" />
@@ -44,14 +53,7 @@ function TopHeader() {
                 </div>
               </div>
             
-              <div >
-                <div className="topNavLogin">
-                <p>
-                  <a href="#" className="a1"><i class="fa fa-user-circle" aria-hidden="true"> </i>
-               REGISTER | LOGIN </a>
-                </p>
-                </div>
-              </div>
+              
           
 
 
