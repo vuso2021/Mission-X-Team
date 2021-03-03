@@ -5,10 +5,11 @@ import flagmaori from './img/maori.jpg';
 import React from 'react';
 import './App.css';
 
-function Naav() {
+function TopHeader() {
   return (
+    
+    // Header container
     <div className="topNav">
-
 
       <div className="topLogo">
         <img src={star} className="star" alt="starlogo" />
@@ -23,42 +24,36 @@ function Naav() {
       <div className="topNavUser">
 
         <div className="topFlagLang">
-          
+
           <p>LANG:
             <img src={flagnz} alt="NZ Flag" />
             <img src={flagmaori} alt="Maori Flag" />
           </p>
 
-        <div>
-          <p className="topNavLogin"> <i class="fa fa-user-circle" aria-hidden="true"></i>  REGISTER  |  LOGIN</p>
-        </div>
+
 
         </div>
-
-
-
-
-
-
-
-
-
+        
+        <div className="topNavLogin">
+          <p> <i class="fa fa-user-circle" aria-hidden="true"></i>  REGISTER  |  LOGIN</p>
+        </div>
 
       </div>
 
     </div>
-
 
   );
 }
 
 
 
+//
+
 
 function App() {
   return (
     <div>
-      <Naav />
+      <TopHeader />
 
       <header className="App-header">
 
