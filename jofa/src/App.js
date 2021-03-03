@@ -23,8 +23,8 @@ function Naav() {
       <div className="topNavUser">
         <div className='topNavLang'>
           <p className="topFlagLang">LANG: 
-          <img src={flagnz} className="nzflag" alt="NZ Flag" />
-          <img src={flagmaori} className="maoriflag" alt="Maori Flag" />
+            <img src={flagnz} className="nzflag" alt="NZ Flag" />
+            <img src={flagmaori} className="maoriflag" alt="Maori Flag" />
           </p>
         </div>
         

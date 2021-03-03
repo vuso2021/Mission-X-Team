@@ -1,6 +1,55 @@
 .App {
-  text-align: center;
+  width:100%;
 }
+
+
+.topNav{
+  background:rgb(0, 177, 251);
+  display:flex;
+}
+
+.topLogo{
+  width: 20%;
+  justify-content: flex-start;
+  display:flex;
+}
+
+.topNavLinks{
+  width: 50%;
+  justify-content: center;
+  display:flex;
+}
+
+.topNavUser{
+  width: 20%;
+  align-content: flex-end;
+  display:flex;
+}
+
+
+
+.topNavLang{
+  justify-content: flex-end;
+  display:flex;
+}
+
+
+
+
+
+
+
+.topFlagLang{  
+  font-size:10px;
+  margin-right:5px;
+}
+
+p{  
+  color: white;
+  margin-left:10px;
+}
+
+
 
 .App-logo {
   height: 40vmin;
