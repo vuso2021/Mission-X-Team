@@ -7,10 +7,10 @@ import baloon from './img/baloonkid.jpg';
 import React from 'react';
 import './App.css';
 
+// Header container
 function TopHeader() {
   return (
     
-    // Header container
     <div className="topNav">
 
       <div className="topLogo">
