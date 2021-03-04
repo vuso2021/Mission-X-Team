@@ -1,0 +1,92 @@
+body{
+    background-color: slategrey;
+}
+
+/* all of this will be added to the homepage */
+
+.Login{
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+    align-items: center;
+    color:royalblue;
+    text-align: center;
+    padding: 5%;
+    width: 80%;
+    text-decoration: none;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-transform: uppercase;
+    text-shadow: grey 0 1px 0;
+}
+
+
+.StudentLogIn{
+    background-color: white;
+    width:200px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+   
+}
+
+a{
+    color: inherit;
+    margin:10px;
+    text-decoration:none;
+    
+}
+
+
+a:hover{
+    text-shadow: black 0 1px 0 ;
+}
+
+.LogInPic{
+    height:120px;
+    width: 100px;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+
+.TeacherLogIn{
+    background-color: white;
+    width:200px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    border-left: solid silver 0.25px;
+}
+
+.UserInput{
+    position: relative;
+    align-items: flex-end;
+    margin-top: 50px;
+    
+}
+
+.UserInput input{
+
+    margin:10px;
+    border: none;
+    border-bottom: solid 1px grey;
+
+}
+
+button{
+
+    background-color: rgb(236, 208, 129);
+    color: white;
+    margin-top: 50px;
+    border: none;
+    padding: 15px 32px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+}
+
+button:hover{
+    border: white 1px solid;
+}
+
+
